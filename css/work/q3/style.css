@@ -1,5 +1,85 @@
 @charset "UTF-8";
 
+.back{
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+  font-size: 30px;
+  text-align:center;
+  line-height: 100px;
+  font-family: arial black;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.box1{
+  background-color: #ffefd3;
+  left: 200px;
+  top: 40px;
+  z-index: 10;
+}
+
+.box2{
+  background-color: #7084de;
+  left: 280px;
+  top: 120px;
+  z-index: 20;
+}
+.box3{
+  background-color: #d0ecea;
+  left: 360px;
+  top: 200px;
+  z-index: 30;
+}
+.box4{
+  background-color: #8b7a5e;
+  left: 280px;
+  top: 280px;
+  z-index: 40;
+}
+.box5{
+  background-color: #9fd6d2;
+  left: 200px;
+  top: 360px;
+  z-index: 50;
+}
+.box6{
+  background-color: #fffee4;
+  left: 120px;
+  top: 280px;
+  z-index: 60;
+}
+.box7{
+  background-color: #deae70;
+  left: 40px;
+  top: 200px;
+  z-index: 70;
+}
+.box8{
+  background-color: #de70cf;
+  left: 120px;
+  top: 120px;
+  z-index: 80;
+}
+
+.box8::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  z-index: 90;
+  position: absolute;
+  left: 80px;
+  top: 0px;
+}
+
 
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */
