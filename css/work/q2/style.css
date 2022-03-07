@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-table{
+.table{
   line-height:22px;
   font-size: 16px;
   width: 100%;
   table-layout: fixed;
 }
 
-.table, th, tr, td{
+.table, .table th,  .table tr,  .table td{
   border: 1px #dedede solid;
   padding: 10px;
   text-align: center;
 }
 
-tr:nth-child(odd){
+.table tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
@@ -24,7 +24,7 @@ tr:nth-child(odd){
   line-height:26px;
 }
 
-tbody tr:last-child{
+.table tbody tr:last-child{
   border-top: 2px #000 dotted;
 }
 
