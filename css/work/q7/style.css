@@ -1,1 +1,54 @@
 @charset "UTF-8";
+.q7{
+  text-align: center;
+}
+
+
+.hukidasi {
+  position: relative;
+  display: inline-block;
+  margin-left: 35px;
+  width: 550px;
+  color: #222;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 5px #222;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.q7-img {
+  position: absolute;
+  left: -120px;
+  top:100px
+}
+
+
+.hukidasi:before {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: -35px;
+  margin-top: -20px;
+  border: 20px solid transparent;
+  border-right: 20px solid #FFF;
+  z-index: 2;
+}
+
+.hukidasi:after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: -45px;
+  margin-top: -22px;
+  border: 22px solid transparent;
+  border-right: 22px solid #222;
+  z-index: 1;
+}
+
+.hukidasi p {
+  margin: 20px;
+  padding: 0;
+  word-break: break-all;
+  text-align: left;
+}
